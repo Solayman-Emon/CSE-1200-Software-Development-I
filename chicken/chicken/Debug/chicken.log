@@ -1,0 +1,59 @@
+﻿Build started 2/1/2017 8:21:06 PM.
+     1>Project "F:\chicken\chicken\chicken.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\chicken.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         G:\visual\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt iMain.cpp
+         iMain.cpp
+     1>f:\chicken\chicken\imain.cpp(197): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\visual\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\chicken\chicken\imain.cpp(206): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 g:\visual\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>f:\chicken\chicken\imain.cpp(207): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 g:\visual\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>f:\chicken\chicken\imain.cpp(208): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 g:\visual\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>f:\chicken\chicken\imain.cpp(218): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\visual\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\chicken\chicken\imain.cpp(219): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\visual\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\chicken\chicken\imain.cpp(230): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\visual\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\chicken\chicken\imain.cpp(233): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\visual\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\chicken\chicken\imain.cpp(234): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\visual\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\chicken\chicken\imain.cpp(245): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\visual\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\chicken\chicken\imain.cpp(248): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\visual\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\chicken\chicken\imain.cpp(251): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\visual\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\chicken\chicken\imain.cpp(252): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\visual\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\chicken\chicken\imain.cpp(305): warning C4805: '==' : unsafe mix of type 'boolean' and type 'bool' in operation
+     1>f:\chicken\chicken\imain.cpp(373): warning C4805: '==' : unsafe mix of type 'boolean' and type 'bool' in operation
+     1>f:\chicken\chicken\imain.cpp(552): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 g:\visual\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>f:\chicken\chicken\imain.cpp(555): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 g:\visual\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>f:\chicken\chicken\imain.cpp(567): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\visual\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\chicken\chicken\imain.cpp(575): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\visual\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\chicken\chicken\imain.cpp(583): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 g:\visual\vc\include\stdlib.h(867) : see declaration of 'itoa'
+       Link:
+         G:\visual\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\chicken\Debug\chicken.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\chicken.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\chicken\Debug\chicken.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\chicken\Debug\chicken.lib" /MACHINE:X86 Debug\iMain.obj
+         LINK : F:\chicken\Debug\chicken.exe not found or not built by the last incremental link; performing full link
+         chicken.vcxproj -> F:\chicken\Debug\chicken.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\chicken\Debug\chicken.exe;#1" /manifest Debug\chicken.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\chicken.unsuccessfulbuild".
+         Touching "Debug\chicken.lastbuildstate".
+     1>Done Building Project "F:\chicken\chicken\chicken.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.22
